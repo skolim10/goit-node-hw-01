@@ -53,6 +53,8 @@ const addContact = async (name, email, phone) => {
   }
 };
 
+listContacts();
+
 module.exports = {
   listContacts,
   getContactById,
